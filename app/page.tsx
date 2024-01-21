@@ -1,11 +1,9 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import { Flex, Title } from '@mantine/core';
 
 export default function HomePage() {
   return (
-    <>
-      <Welcome />
-      <ColorSchemeToggle />
-    </>
+    <Flex justify="center" align="center" direction="column" gap="xl">
+      <Title order={1}>Starter Template</Title>
+    </Flex>
   );
 }
